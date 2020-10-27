@@ -1,0 +1,30 @@
+{
+    "name": "empatisoft/amazon-pa",
+    "type": "library",
+    "description": "Amazon Product Advertising API",
+    "keywords": [
+        "amazon",
+        "paapi",
+        "ProductAdversitingApi"
+    ],
+    "homepage": "https://empatisoft.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Onur KAYA",
+            "email": "empatisoft@gmail.com",
+            "homepage": "https://github.com/empatisoft"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Empatisoft\\Amazon\\ProductAdvertising\\": "src/"
+        }
+    }
+}
